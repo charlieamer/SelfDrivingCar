@@ -1,33 +1,70 @@
-# Gradle files
-.gradle/
-build/
+# Directories and files that cannot be commited to git
 
-# Local configuration file (sdk path, etc)
-local.properties
+# Byte-compiled
+__pycache__
+*.py[cod]
+*$py.class
+*.pyc
 
-# Log/OS Files
+# C extensions
+*.so
+
+# Distribution / packaging
+.Python
+lib
+lib64
+parts
+sdist
+var
+wheels
+pip-wheel-metadata
+share/python-wheels
+develop-eggs
+eggs
+.eggs
+*.egg-info
+*.egg
+MANIFEST
+.installed.cfg
+downloads
+docs/_build
+build
+dist
+bin
+.buildozer
+
+# Logs
 *.log
+pip-log.txt
+pip-delete-this-directory.txt
 
-# Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.apk
-output.json
+# Editors
+.vscode
+.ipynb_checkpoints
+*.swp
 
-# IntelliJ
-*.iml
-.idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
+# PyCharm
+.idea/*
+!/.idea/*.iml
+!/.idea/modules.xml
+!/.idea/vcs.xml
+!/.idea/runConfigurations
 
-# Keystore files
-*.jks
-*.keystore
+# Environments
+venv
+.venv
+env
+.env
+.python-version
 
-# Google Services (e.g. APIs or Firebase)
-google-services.json
+# Temp / Cache
+cache
+.cache
+temp
+.temp
+.pytest_cache
+.coverage
 
-# Android Profiling
-*.hprof
+/kivymd/tools/release/*.zip
+/kivymd/tools/release/temp
+/kivymd/_version.py
